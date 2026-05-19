@@ -42,9 +42,9 @@ const Assets = (() => {
     'item_macho.png'    : 'assets/items/item_macho.png',
 
     // ■ ui
-    'title_bg'          : 'assets/backgrounds/title_bg.webp',
+   //  'title_bg'          : 'assets/backgrounds/title_bg.webp',
     'title_logo'        : 'assets/ui/title_logo.png',
-    'result_bg'         : 'assets/backgrounds/result_bg.webp',
+ //    'result_bg'         : 'assets/backgrounds/result_bg.webp',
     'rank_S'            : 'assets/ui/rank_S.png',
     'rank_A'            : 'assets/ui/rank_A.png',
     'rank_B'            : 'assets/ui/rank_B.png',
@@ -61,7 +61,7 @@ const Assets = (() => {
     'player_ship'       : 'assets/player/player_ship.png',
 
     // ■ backgrounds
-    'stage_bg'          : 'assets/backgrounds/stage_bg.webp',
+   //  'stage_bg'          : 'assets/backgrounds/stage_bg.webp',
   };
 
   // ロード済み画像キャッシュ  key → HTMLImageElement
