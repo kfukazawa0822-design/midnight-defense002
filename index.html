@@ -2449,22 +2449,20 @@ wire('btnEndlessTitle', ()=>{if(raf)cancelAnimationFrame(raf);showScreen('title'
   }, 120);
 
   Assets.load().then(() => {
-    clearInterval(ticker);
-    bar.style.width = '100%';
-    label.textContent = 'READY';
+  clearInterval(ticker);
+  bar.style.width = '100%';
+  label.textContent = 'READY';
 
-    setTimeout(() => {
-      // プリロード画面を非表示
-      document.getElementById('preloadScreen').classList.add('hidden');
+  setTimeout(() => {
+    document.getElementById('preloadScreen').classList.add('hidden');
 
-      // タイトル画面にアセット適用してから初期化
-      applyTitleBg();
-      buildCards();
-      resize();
-      animateRain();
-    }, 300);
-  });
-})();
+    // applyTitleBg();
+    // buildCards();
+    // resize();
+    // animateRain();
+
+  }, 300);
+});
 
 /* ─── タイトル画面にアセット適用 ─── */
 function applyTitleBg(){
