@@ -39,7 +39,7 @@ const Assets = (() => {
 
     // ■ items
     'item_dumbbell.png' : 'assets/items/item_dumbbell.png',
-    'item_macho.png'    : 'assets/items/item_machoa.png',
+    'item_macho.png'    : 'assets/items/item_macho.png',
 
     // ■ ui
     'title_bg'          : 'assets/backgrounds/title_bg.webp',
